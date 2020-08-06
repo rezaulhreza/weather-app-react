@@ -29,6 +29,9 @@ function App() {
       "Friday",
       "Saturday",
     ];
+    let day = days[d.getDay()];
+    let date = d.getDate();
+    let month = months[d.getMonth()];
   };
 
   return (
