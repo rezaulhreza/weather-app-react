@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'monstseratt', sans-serif;
+}
+
+.app {
+  background-image: url('./assets/winter-weather.jpg');
+  background-size: cover;
+  background-position: bottom;
+  transition: .4s ease-out;
+}
+
+.app.warm {
+  background-image: url('./assets/warm.jpg');
+}
+
+main {
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.75));
+  padding: 25px;
+}
+
+.search-box {
+  width: 100%;
+  margin: 0 0 75px;
+}
+
+.search-box .search-bar {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  appearance: none;
+  background: none;
+  outline: none;
+}
