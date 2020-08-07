@@ -1,3 +1,6 @@
-# weather-app-react
+#### This App was bootstrapped with Create React App
 
-Previously I have created an Weather app with JavaScript. But this one is built with React JS
+#### Available Scripts
+In this project directory you can run:
+###### npm start
+Runs the App in the development mode
